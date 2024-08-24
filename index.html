@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240824175835">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="">
+	<div class="wrapper">
+		<header class="payment-top">
+			<div class="payment-top__container">
+				<div class="payment-top__title"><img src="img/icons/bag.svg" alt="иконка оплата">Оплата</div>
+				<div class="payment-top__body">
+					<span class="payment-top__price">1000 ₽</span>
+					<div class="payment-top__timer">
+						<img src="img/icons/timer.svg" alt="иконка таймер">
+						<span>6:45</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="payment-fast">
+					<h2 class="payment-fast__title payment-title">Выберите банк для быстрой оплаты</h2>
+					<div class="payment-fast__subtitle payment-subtitle">Перейдите по ссылке и переведите точную
+						сумму 1000 ₽ одним платежем</div>
+					<a href="" class="payment-fast__button button">Оплатить через<img src="img/logos/sberpay-new.svg" alt="Логотип sberpay"></a>
+					<a href="" class="payment-fast__button button">Оплатить через<img src="img/logos/t-pay.svg" alt="Логотип t-pay"></a>
+				</div>
+				<div data-spollers="max,200" class="payment-card spollers">
+					<details class="spollers__item">
+						<summary class="spollers__title payment-title">Оплата по реквизитам</summary>
+						<div class="spollers__body body-spollers">
+							<div class="body-spollers__subtitle payment-subtitle">Переведите 1000 ₽ по номеру карты. Не
+								оставляйте комментарий к переводу.</div>
+							<div class="body-spollers__items">
+								<div class="body-spollers__item copy-block">
+									<div class="body-spollers__icon">
+										<img src="img/icons/phone.svg" alt="иконка">
+									</div>
+									<div class="body-spollers__info">
+										<label>Номер карты</label>
+										<span>4000 0000 0000 0000</span>
+									</div>
+									<button type="button" class="body-spollers__copy copy-button"><img src="img/icons/copy.svg" alt="иконка копирования"></button>
+								</div>
+								<div class="body-spollers__item copy-block">
+									<div class="body-spollers__icon">
+										<img src="img/icons/rubles.svg" alt="иконка">
+									</div>
+									<div class="body-spollers__info">
+										<label>Сумма перевода</label>
+										<span>1000 ₽</span>
+									</div>
+									<button type="button" class="body-spollers__copy copy-button"><img src="img/icons/copy.svg" alt="иконка копирования"></button>
+								</div>
+								<!-- <div class="body-spollers__item">
+									<div class="body-spollers__icon">
+										<img src="img/icons/person.svg" alt="иконка">
+									</div>
+									<div class="body-spollers__info">
+										<label>Получатель</label>
+										<span>Галина Александровна Ф</span>
+									</div>
+								</div>
+								<div class="body-spollers__item">
+									<div class="body-spollers__icon">
+										<img src="img/icons/bank.svg" alt="иконка">
+									</div>
+									<div class="body-spollers__info">
+										<label>Банк получатель</label>
+										<span>Сбербанк</span>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</details>
+				</div>
+				<div hidden class="payment-find">
+					<button type="button" class="payment-find__goback"><img src="img/icons/arrow-back.svg" alt="стрелка назад"></button>
+					<div class="payment-find__body">
+						<div class="payment-find__image">
+							<img src="img/find-image.webp" alt="картинка">
+						</div>
+						<div class="payment-find__texts">
+							<h2 class="payment-find__title payment-title">Ищем ваш платеж на 1000 ₽</h2>
+							<div class="payment-find__subtitle payment-subtitle">Не закрывайте это окно. Ваш платеж будет
+								подтвержден автоматически</div>
+						</div>
+						<div class="payment-find__buttons">
+							<button type="button" class="payment-find__button button"><img src="img/icons/question.svg" alt="">Что не так с платежем?</button>
+							<a href="" class="payment-find__button button button--cancel"><img src="img/icons/close.svg" alt="иконка отменить">Отменить платеж</a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="payment-attention">
+					<div class="payment-attention__image">
+						<img src="img/card-image.webp" alt="картинка">
+					</div>
+					<h2 class="payment-attention__title payment-title">Обратите внимание</h2>
+					<div class="payment-attention__text payment-subtitle">Не используйте эти реквизиты для последующих
+						платежей. Они меняются с каждой заявкой</div>
+					<button type="button" class="payment-attention__button button button--blue">Понятно</button>
+				</div> -->
+			</div>
+		</main>
+		<footer class="payment-bottom">
+			<div class="payment-bottom__container">
+				<button type="button" class="payment-bottom__button payment-bottom__button-ready button button--blue">Оплачено</button>
+				<a href="" class="payment-bottom__button button button--cancel"><img src="img/icons/close.svg" alt="иконка отменить">Отменить платеж</a>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240824175835"></script>
+</body>
+
+</html>
